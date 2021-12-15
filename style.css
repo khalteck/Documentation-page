@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: #f8f8f8;
+    color: #25292f;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+}
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 7px rgba(70, 50, 50, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    @media screen {
+        width: 100vw;
+    }
+}
+main {
+    width: 75%;
+    background-color: #f8f8f8;
+    float: right;
+}
+.main-section {
+    color: #25292f;
+}
+.logo {
+    display: flex;
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+.codepen-logo {
+    width: 35px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+#logo-part {
+    position: relative;
+    left: 7px;
+    top: -12px;
+}
+.link-logocolor {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fcc {
+    color: #838282;
+    position: relative;
+    bottom: 8px;
+}
+.follow {
+    color: #ffffff;
+    background-color: #f80aa9;
+    border-radius: 5%;
+    position: relative;
+    left: 5px;
+    bottom: 8px;
+    height: 16px;
+    font-size: 13px;
+}
+.opt {
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 23px;
+    bottom: 82px;
+    font-weight: 520;
+    font-size: 16px;
+}
+.view-in {
+    padding-right: 50px;
+    color: #25292f;
+}
+.view-in::after {
+    content: "";
+    position: absolute;
+    background-color: #f80aa9;
+    height: 2px;
+    width: 0;
+    left: 150px;
+    bottom: 23px;
+    transition: 0.2s;
+}
+.view-in:hover::after {
+    width: 101px;
+}
+.pin {
+    padding-right: 50px;
+    color: #25292f;
+}
+.pin::after {
+    content: "";
+    position: absolute;
+    background-color: #f80aa9;
+    height: 2px;
+    width: 0;
+    left: 295px;
+    bottom: 23px;
+    transition: 0.2s;
+}
+.pin:hover::after {
+    width: 75px;
+}
+.view-pins {
+    padding-right: 50px;
+    color: #25292f;
+}
+.view-pins::after {
+    content: "";
+    position: absolute;
+    background-color: #f80aa9;
+    height: 2px;
+    width: 0;
+    left: 410px;
+    bottom: 23px;
+    transition: 0.2s;
+}
+.view-pins:hover::after {
+    width: 76px;
+}
+a {
+    text-decoration: none;
+}
+.user {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 15px;
+}
+#floater {
+    float: right;
+}
+#sidenav {
+    background-color: #ffffff;
+    height: 80%;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 140px;
+    z-index: 999;
+}
+#sidenav a {
+    display: block;
+    color: #25292f;
+    text-decoration: none;
+    height: 40px;
+    font-size: 15px;
+    padding: 12.5px 0px 0px 25px;
+    border: 1px solid #25292f;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+#js {
+    width: 300px;
+    height: 70px;
+    padding-top: 15px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    text-align: center;
+    z-index: 999;
+}
+#js h1 {
+    font-size: 25px;
+    position: relative;
+    bottom: 8px;
+}
+.nav-link {
+    color: #25292f;
+}
+/*code {
+    width: 1000px;
+    height: auto;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+}*/
+.grey0 {
+    width: 95%;
+    height: 90px;
+    background-color: #e9e9e9;
+    color: #25292f;
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 20px 0px 0px 20px;
+}
+.grey {
+    width: 95%;
+    height: 60px;
+    background-color: #e9e9e9;
+    color: #25292f;
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 20px 0px 0px 20px;
+}
+.grey2 {
+    width: 95%;
+    height: 40px;
+    background-color: #e9e9e9;
+    color: #25292f;
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 20px 0px 0px 20px;
+}
+.grey-1 {
+    width: 95%;
+    height: 120px;
+    background-color: #e9e9e9;
+    color: #25292f;
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 20px 0px 0px 20px;
+}

@@ -83,12 +83,12 @@ main {
     background-color: #f80aa9;
     height: 2px;
     width: 0;
-    left: 150px;
+    left: 40px;
     bottom: 23px;
     transition: 0.2s;
 }
 .view-in:hover::after {
-    width: 101px;
+    width: 115px;
 }
 .pin {
     padding-right: 50px;
@@ -100,12 +100,12 @@ main {
     background-color: #f80aa9;
     height: 2px;
     width: 0;
-    left: 295px;
+    left: 200px;
     bottom: 23px;
     transition: 0.2s;
 }
 .pin:hover::after {
-    width: 75px;
+    width: 80px;
 }
 .view-pins {
     padding-right: 50px;
@@ -117,12 +117,12 @@ main {
     background-color: #f80aa9;
     height: 2px;
     width: 0;
-    left: 410px;
+    left: 318px;
     bottom: 23px;
     transition: 0.2s;
 }
 .view-pins:hover::after {
-    width: 76px;
+    width: 81px;
 }
 a {
     text-decoration: none;
